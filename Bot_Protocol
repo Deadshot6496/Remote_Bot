@@ -1,0 +1,15 @@
+Transmit from Remote -> propulsion, Steering , drive , checksum, NewLine
+						   3 		  1			1			3		1
+
+Transmit from Car -> x angle, y angle , z angle , xG , yG, zG , obstacle in cms , checkSum
+						3		3			3	   3    3   3          3             3
+						
+Steering ENUM :
+0 -> straight
+1 -> left
+2 -> right
+
+Drive Enum :
+0 -> brake
+1 -> drive
+2 -> rev
